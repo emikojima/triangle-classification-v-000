@@ -27,8 +27,10 @@ class Triangle
          return :scalene
       end
   end
-end
+
 
 class TriangleError < StandardError
     "This is not a triangle"
 end 
+end
+
