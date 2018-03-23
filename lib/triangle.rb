@@ -1,5 +1,6 @@
 require 'pry'
 class Triangle
+  attr reader: :s1, :s2, :s3
   
   def initialize(s1, s2, s3)
     @s1 = s1
